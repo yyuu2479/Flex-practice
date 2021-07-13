@@ -3,3 +3,69 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
+header{
+  width: 100%;
+  padding: 30px 20px;
+  background-color: palevioletred;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header > div{
+  height: 70px;
+  flex-basis: 140px;
+  margin: 0 10px;
+  background-color: rgb(255, 142, 179);
+}
+
+header > :first-child{
+  margin-right: auto;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+}
+
+.left{
+  width: 300px;
+  background-color: yellowgreen;
+}
+
+.right{
+  max-width: 700px;
+  padding: 20px;
+  background-color: green;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.right > div{
+  height: 130px;
+  margin: 10px;
+  background-color: yellow;
+  flex-basis: 200px;
+}
+
+
+footer{
+  width: 100%;
+  padding: 20px;
+  background-color: rgb(69, 69, 253);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer > div{
+  max-width: 600px;
+  height: 40px;
+  margin: 10px;
+  background-color: rgb(97, 199, 206);
+  flex-basis: 45%;
+}
+
+
